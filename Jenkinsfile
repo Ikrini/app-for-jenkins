@@ -34,8 +34,10 @@ pipeline {
                 sh '''
                     echo "Line1"
                     echo "Line2"
+                    
                  
                 '''
+                sh "ls -la"
                 echo "end of Stage Build"
             }
         }
